@@ -1,0 +1,21 @@
+{
+  "teambit.workspace/workspace": {
+    "name": "microfrontend-olb-workspace",
+    "defaultScope": "blossomolb.ui",
+    "icon": "https://static.bit.dev/bit-logo.svg"
+  },
+  "teambit.react/react": {},
+  "teambit.harmony/aspect": {},
+  "teambit.dependencies/dependency-resolver": {
+    "policy": {
+      "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+      },
+      "devDependencies": {
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+---
+description: 'Botón atómico reutilizable, accesible y estilizado con Tailwind. Exportado y documentado para Bit.dev.'
+labels: ['atom', 'button', 'accesibilidad', 'bit']
+---
+
+import { Button } from './Button';
+
+## Uso básico
+
+```tsx
+<Button onClick={() => alert('Hola!')}>Click me</Button>
+```
+
+## Props
+
+| Prop    | Tipo         | Descripción                       |
+| ------- | ------------ | --------------------------------- |
+| variant | string       | 'primary' (default) o 'secondary' |
+| ...     | button props | Hereda todas las props de button  |
+
+## Accesibilidad
+
+- Usa `focus:outline-none` y `focus:ring` para accesibilidad.
+- Compatible con teclado y lectores de pantalla.
+
+## Buenas prácticas Bit.dev
+
+- Escribe descripciones claras y ejemplos de uso.
+- Versiona y publica tras cada cambio relevante.
+- Usa comentarios JSDoc en el componente para props y ejemplos.

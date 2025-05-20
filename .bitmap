@@ -1,0 +1,5 @@
+{
+  "version": "1.0.0",
+  "componentsDefaultDirectory": "src/components/{namespace}/{name}",
+  "packageManager": "npm"
+}

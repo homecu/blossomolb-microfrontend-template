@@ -1,0 +1,11 @@
+{
+  "envs": {
+    "teambit.react/react": {
+      "options": {
+        "typescript": true,
+        "jest": true,
+        "docs": true
+      }
+    }
+  }
+}
